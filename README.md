@@ -10,7 +10,9 @@ The completed interface follows strict enterprise UI/UX standards, structured as
 * **Bottom Granular Data Layer:** A comprehensive Matrix Table detailing individual employee parameters for deep-dive reporting.
 * **Interactive Control Slicers:** Control checkboxes allowing users to dynamically filter the entire canvas layout by Department.
 
-## 🧮 Custom HR Analytics Engineering (DAX Measures)
+## ## 📸 Completed Interactive Interface Preview
+Please review the uploaded `HR_Analytics_Dashboard.pbix` workspace file inside this repository to interactively click, filter, and run the live operational data visuals.
+ Custom HR Analytics Engineering (DAX Measures)
 The following core calculations were engineered directly into the data engine to power the dashboard:
 * **Total Employees:** `Total Employees = DISTINCTCOUNT(HR_Workforce_Data[EmployeeID])`
 * **Attrition Volatility Count:** `Attrition Count = CALCULATE(COUNTROWS(HR_Workforce_Data), HR_Workforce_Data[Status] = "Left")`
