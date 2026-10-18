@@ -11,7 +11,9 @@ The completed interface follows strict enterprise UI/UX standards, structured as
 * **Interactive Control Slicers:** Control checkboxes allowing users to dynamically filter the entire canvas layout by Department.
 
 ## ## 📸 Completed Interactive Interface Preview
-Please review the uploaded `HR_Analytics_Dashboard.pbix` workspace file inside this repository to interactively click, filter, and run the live operational data visuals.
+## 📸 Completed Interactive Interface Preview
+Please download and review the uploaded `HR_Analytics_Dashboard.pbix` workspace file inside this repository to interactively click, filter, and audit the live human resource analytics visuals.
+
  Custom HR Analytics Engineering (DAX Measures)
 The following core calculations were engineered directly into the data engine to power the dashboard:
 * **Total Employees:** `Total Employees = DISTINCTCOUNT(HR_Workforce_Data[EmployeeID])`
